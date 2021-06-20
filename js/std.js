@@ -23,7 +23,7 @@ $(document).ready(function(){
 
             if(top >= offset && top < height + offset){
                 $('.navbar ul li a').removeClass('active');
-                $('.navbar').find('[href="#' + id + '"]').addClass('active');
+                $('.navbar').find('[href="#' + id + '"]').addClass('.active');
             }
         });
     });
